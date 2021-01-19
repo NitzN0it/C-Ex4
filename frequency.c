@@ -102,7 +102,7 @@ void print_words_R(Node* root, char word[], int j)
     if(root->is_end_of_word == true)
     {
         word[j]='\0';
-        printf("%s\t %ld\n",word,root->count);
+        printf("%s %ld\n",word,root->count);
     }
     for(int i=LETTERS-1 ;i>= 0; i--)
     {
